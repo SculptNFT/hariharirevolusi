@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hari-Hari Revolusi Indonesia - KH. Abdul Chalim Siddiq</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Merriweather:ital,wght@0,300;0,700;1,300&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; background-color: #FAFAFA; }
+        .serif { font-family: 'Merriweather', serif; }
+        .text-red-revolusi { color: #D32F2F; } /* Diambil dari warna teks REVOLUSI di cover */
+        .bg-red-revolusi { background-color: #D32F2F; }
+        .hover-bg-red-revolusi:hover { background-color: #B71C1C; }
+        .shadow-soft { box-shadow: 0 20px 40px -15px rgba(0,0,0,0.05); }
+    </style>
+</head>
+<body class="text-gray-800 antialiased overflow-x-hidden">
+
+    <!-- Navbar -->
+    <nav class="fixed w-full z-50 bg-white/90 backdrop-blur-md border-b border-gray-100">
+        <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="font-bold text-xl tracking-tight text-gray-900">Ngenger</div>
+            <a href="#order" class="bg-red-revolusi text-white px-6 py-2.5 rounded-full text-sm font-semibold hover-bg-red-revolusi transition shadow-md">
+                Pesan Sekarang
+            </a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="pt-32 pb-16 px-6 lg:pt-40 lg:pb-24">
+        <div class="max-w-6xl mx-auto flex flex-col lg:flex-row items-center gap-12 lg:gap-20">
+            <!-- Text Content -->
+            <div class="lg:w-1/2 space-y-6 text-center lg:text-left">
+                <p class="text-red-revolusi font-semibold tracking-widest uppercase text-sm">Catatan Harian 24 Juli - 12 November 1947</p>
+                <h1 class="serif text-4xl lg:text-5xl xl:text-6xl font-bold leading-tight text-gray-900">
+                    HARI-HARI <br>
+                    <span class="text-red-revolusi">REVOLUSI INDONESIA</span>
+                </h1>
+                <p class="text-xl text-gray-600 font-medium">
+                    Karya KH. Abdul Chalim Siddiq
+                </p>
+                <p class="text-base text-gray-600 leading-relaxed max-w-lg mx-auto lg:mx-0">
+                    Sebendel naskah tulisan tangan tahun 1947 yang baru ditemukan. Menyelami revolusi dari dalam, lewat kacamata Ketua Masyumi Karesidenan Besuki.
+                </p>
+                <div class="pt-6 flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+                    <a href="#order" class="bg-red-revolusi text-white px-8 py-4 rounded-lg font-bold text-lg hover-bg-red-revolusi transition shadow-lg">Beli Buku Ini</a>
+                    <a href="#sinopsis" class="bg-white border-2 border-gray-200 text-gray-700 px-8 py-4 rounded-lg font-semibold text-lg hover:border-gray-300 transition">Baca Sinopsis</a>
+                </div>
+            </div>
+            
+            <!-- Hero Image: Menggunakan rasio pamflet/buku -->
+            <div class="lg:w-1/2 flex justify-center w-full">
+                <!-- NOTE: Ganti src di bawah dengan "pamflet.jpg" atau "Foto Buku.jpg" milik Anda -->
+                <div class="relative w-full max-w-md aspect-[3/4] rounded-xl overflow-hidden shadow-soft border border-gray-100 bg-white group">
+                    <div class="absolute inset-0 flex items-center justify-center text-gray-400 flex-col gap-2 bg-gray-50">
+                        <svg class="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
+                        <span class="text-sm font-medium">Masukkan "pamflet.jpg" di sini</span>
+                    </div>
+                    <!-- Hapus class 'hidden' jika gambar sudah tersedia di folder yang sama -->
+                    <img src="pamflet.jpg" alt="Pamflet Buku Hari-Hari Revolusi Indonesia" class="absolute inset-0 w-full h-full object-contain bg-white z-10 hidden" onerror="this.classList.add('hidden')">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Didukung Oleh Section (Berdasarkan Pamflet) -->
+    <section class="py-10 border-y border-gray-200 bg-white">
+        <div class="max-w-6xl mx-auto px-6 text-center">
+            <p class="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-6">Didukung Oleh:</p>
+            <div class="flex justify-center items-center gap-8 md:gap-16 flex-wrap opacity-80">
+                 <span class="font-bold text-lg text-gray-700"><span class="text-green-700 italic text-xl mr-2 font-serif">ngenger</span>Jalan Kebudayaan, Jalan Kemanusiaan</span>
+                <span class="font-bold text-lg text-gray-700 border-l border-gray-300 pl-8">UIN KHAS JEMBER</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sinopsis Berdasarkan Back Cover (Faktual 100%) -->
+    <section id="sinopsis" class="py-24 px-6 bg-[#FAFAFA]">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="serif text-3xl md:text-4xl text-center text-gray-900 mb-16">Menyajikan Gambaran Revolusi 'Dari Dalam'</h2>
+            
+            <div class="space-y-8 text-gray-700 text-lg leading-relaxed text-justify">
+                <p>
+                    Sejak ditulis pada tahun 1947, catatan harian ini belum terbaca. Ia baru "ditemukan" beberapa tahun yang lalu di antara berkas-berkas yang berserakan. Setelah diterjemahkan dan ditransliterasi, sungguh mengejutkan, sebendel naskah tulisan tangan ini ternyata berupa catatan harian yang memuat laporan-laporan yang sangat rinci dan kaya informasi sejarah, terutama peristiwa demi peristiwa yang terjadi pada hari-hari revolusi antara 24 Juli hingga 12 Nopember 1947.
+                </p>
+                <p>
+                    Penulisnya, <strong>Kiai Haji Abdul Chalim Siddiq</strong>, saat itu merupakan Ketua Masyumi Karesidenan Besuki, berperan penting sebagai arsitek perjuangan, dan karena itu menjadi pusat laporan <em>(verslag)</em> dari pelbagai satuan perjuangan. Tidak saja memuat laporan-laporan peristiwa yang terjadi di Karesidenan Besuki, melalui berita-berita radio, catatan harian ini juga merekam pelbagai peristiwa di tingkat nasional maupun internasional. Dan tidak hanya mengumpulkan laporan, Kiai Haji Abdul Chalim Siddiq juga menganalisis pelbagai laporan itu secara bernas laiknya seorang pengamat politik.
+                </p>
+                
+                <div class="p-8 bg-white border-l-4 border-red-revolusi shadow-sm rounded-r-lg my-10">
+                    <p class="italic">
+                        "Sebagaimana lazimnya catatan harian, di dalamnya juga mengungkap pergolakan batin Kiai Haji Abdul Chalim Siddiq - kegundahan, harapan, dan doa-doa yang dipanjatkan dalam menghadapi situasi revolusi saat itu."
+                    </p>
+                </div>
+
+                <p>
+                    Lebih dari itu, lewat sosok Kiai Haji Abdul Chalim Siddiq, sebagaimana terekam dalam catatan harian ini, terefleksikan 'dialog' antara Islam dan Revolusi - bagaimana sikap, pikiran, dan tindakannya selalu merujuk pada Al-Qur'an dan Hadis. Kiai Chalim juga menganjurkan azimat, hizib, dan doa-doa sebagai benteng spiritual. Namun, meskipun azimat, hizib, dan doa-doa menjadi spirit penting dalam perjuangan, Kiai Chalim tidak pernah mengklaim sebuah 'keselamatan' dari serangan musuh, misalnya, sebagai akibat langsung dari hizib yang dibacakan.
+                </p>
+                <p class="font-medium text-gray-900 bg-gray-100 p-6 rounded-lg">
+                    Membaca catatan harian ini membawa kita memasuki situasi revolusi, seakan kita berada di dalamnya. Ia memberikan gambaran yang rinci dan hidup. Dan, yang terpenting, catatan harian ini menyajikan gambaran revolusi 'dari dalam', dari sudut pandang Indonesia dan, tentu saja, Islam.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Spesifikasi & Konteks Foto (Sesuai Data Pamflet) -->
+    <section class="py-20 bg-white">
+        <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-16 items-center">
+            
+            <!-- Spesifikasi Buku -->
+            <div class="space-y-8">
+                <div>
+                    <h3 class="serif text-3xl font-bold text-gray-900 mb-2">Spesifikasi Buku</h3>
+                    <div class="w-16 h-1 bg-red-revolusi rounded"></div>
+                </div>
+                
+                <div class="bg-gray-50 p-8 rounded-2xl border border-gray-100">
+                    <table class="w-full text-left text-gray-700">
+                        <tbody class="divide-y divide-gray-200">
+                            <tr>
+                                <td class="py-4 font-semibold w-32">Tebal</td>
+                                <td class="py-4">: 286 halaman</td>
+                            </tr>
+                            <tr>
+                                <td class="py-4 font-semibold">Ukuran</td>
+                                <td class="py-4">: 15,5 x 23 cm</td>
+                            </tr>
+                            <tr>
+                                <td class="py-4 font-semibold">Kertas Isi</td>
+                                <td class="py-4">: BP 57 gr</td>
+                            </tr>
+                            <tr>
+                                <td class="py-4 font-semibold">Sampul</td>
+                                <td class="py-4">: Ivory 260 gr spot embos</td>
+                            </tr>
+                            <tr>
+                                <td class="py-4 font-semibold">ISBN</td>
+                                <td class="py-4">: <span class="font-mono bg-white px-2 py-1 rounded border">978-634-7056-21-1</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Foto di Makam -->
+            <div class="relative">
+                <!-- NOTE: Ganti src di bawah dengan "foto buku di makam.jpg" milik Anda -->
+                <div class="aspect-[3/4] rounded-2xl overflow-hidden shadow-soft border-4 border-white relative z-10 bg-gray-100 flex items-center justify-center">
+                    <div class="absolute inset-0 flex items-center justify-center text-gray-400 flex-col gap-2">
+                        <svg class="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
+                        <span class="text-sm font-medium px-4 text-center">Masukkan "foto buku di makam.jpg" di sini</span>
+                    </div>
+                    <!-- Hapus class 'hidden' jika gambar sudah tersedia -->
+                    <img src="foto buku di makam.jpg" alt="Buku di Makam" class="absolute inset-0 w-full h-full object-cover z-10 hidden" onerror="this.classList.add('hidden')">
+                </div>
+                <!-- Dekorasi Background -->
+                <div class="absolute -bottom-6 -right-6 w-full h-full border-2 border-red-revolusi/20 rounded-2xl -z-0"></div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section id="order" class="py-24 px-6 bg-gray-900 text-white text-center">
+        <div class="max-w-3xl mx-auto">
+            <h2 class="serif text-3xl md:text-5xl mb-6">Miliki Kepingan Sejarah Ini</h2>
+            <p class="text-gray-400 mb-10 text-lg">
+                Dapatkan salinan catatan harian KH. Abdul Chalim Siddiq sekarang. Tersedia melalui jalur pemesanan langsung.
+            </p>
+            
+            <a href="https://wa.me/6281227475754" target="_blank" class="inline-flex items-center justify-center gap-3 bg-red-revolusi text-white px-10 py-5 rounded-lg font-bold text-xl hover-bg-red-revolusi transition w-full md:w-auto">
+                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L0 24l6.335-1.662c1.72.94 3.675 1.439 5.662 1.439h.005c6.554 0 11.89-5.335 11.893-11.892a11.826 11.826 0 00-3.48-8.413z"/></svg>
+                Pesan Lewat WhatsApp (081249434438)
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-12 bg-white border-t border-gray-200">
+        <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-8 items-center">
+            <div>
+                <h4 class="font-bold text-xl text-gray-900 mb-2">JIWA SANTRI BERSATU</h4>
+               
+            </div>
+            <div class="flex gap-4 md:justify-end">
+                <a href="#" class="text-gray-400 hover:text-red-revolusi transition">Instagram</a>
+                <span class="text-gray-300">•</span>
+                <a href="#" class="text-gray-400 hover:text-red-revolusi transition">Facebook</a>
+                <span class="text-gray-300">•</span>
+                <a href="https://www.ngenger.co/" target="_blank" class="text-gray-400 hover:text-red-revolusi transition">Website</a>
+            </div>
+        </div>
+        <div class="max-w-6xl mx-auto px-6 mt-12 pt-6 border-t border-gray-100 text-center text-gray-400 text-sm">
+            &copy; 2026 Jiwa Santri Bersatu.
+        </div>
+    </footer>
+
+</body>
+</html>
